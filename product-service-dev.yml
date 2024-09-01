@@ -6,7 +6,7 @@ spring:
   data:
     mongodb:
       uri: mongodb://mitocode:mitocode@localhost:27017/mitocode?authSource=admin
-# Postgres Configuration '{cipher}bd8b6928566a8e66e5255e081bf9a35218fd7e2a42ec0fcb19ff2f2ff87817cd'
+# Postgres Configuration 
   jpa:
     databasePlatform:
     hibernate: 
@@ -19,4 +19,4 @@ spring:
   datasource: 
     url: jdbc:postgresql://localhost:5432/mitocode
     username: mitocode
-    password: mitocode
+    password: '{cipher}74efb022fd0db8609dfe51a924c48ab21c2a97da48f947c62c9ac197ea283f90'
