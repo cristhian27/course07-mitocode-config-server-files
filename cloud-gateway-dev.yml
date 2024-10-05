@@ -1,12 +1,12 @@
 server:
-    port: ${CUSTOM.SERVER.PORT:9080}
+  port: ${CUSTOM.SERVER.PORT:9080}
     
 # Spring Cloud Gatewat Router
 spring:
   cloud:
-     gateway:
-       routes:
-       
+    gateway:
+      routes:
+      
         - id: product-service-route
           uri: lb://product-service
           predicates:
