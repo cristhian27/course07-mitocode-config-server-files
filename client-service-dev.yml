@@ -2,8 +2,8 @@ server:
   port: ${CUSTOM.SERVER.PORT:9010}  
   
 management:
-  endpoints:
+ endpoints:
     web:
-      exposure:
-        include: '*'
-        base-path: /actuator
+     exposure:
+      include: '*'
+      base-path: /actuator
