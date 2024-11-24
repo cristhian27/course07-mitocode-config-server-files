@@ -27,6 +27,6 @@ resilience4j:
      configs:
        product-service-tl:
         timeoutDuration: 1s
-       instances:
-        mitocode-product-tl:
-         base-config: product-service-tl
+     instances:
+      mitocode-product-tl:
+        base-config: product-service-tl
