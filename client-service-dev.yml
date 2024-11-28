@@ -20,7 +20,7 @@ resilience4j:
         slowCallDurationThreshold: 500ms
         automaticTransitionFromOpenToHalfOpenEnabled: true
         
-      product-service-cb:
+      user-service-cb:
         slidingWindowSize: 12
         failureRateThreshold: 48
         waitDurationInOpenState: 10s
